@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- LG G5 -->
-  <project path="device/lge/g5-common" name="AOSP-JF-MM/platform_device_lge_g5-common" remote="github" revision="aosp-7.1.1" />
-  <project path="device/lge/h850" name="AOSP-JF-MM/platform_device_lge_h850" remote="github" revision="aosp-7.1.1" />
-  <project path="kernel/lge/msm8996" name="AOSP-JF-MM/platform_kernel_lge_msm8996" remote="github" revision="aosp-7.1.1" />
+	<project name="argraur/android_device_samsung_hllte"      	        path="device/samsung/hllte"			remote="github" revision="android-7.1.1_r22" />
+	<project name="FireLord1/android_device_samsung_hl3g"      	        path="device/samsung/hl3g"			remote="github" revision="cm-14.1" />
+	<project name="FireLord1/android_kernel_samsung_smdk5260" 	        path="kernel/samsung/smdk5260" 			remote="github" revision="cm-14.1" />
+  <project name="FireLord1/android_vendor_samsung_smdk5260-common"        path="vendor/samsung/smdk5260-common" 		remote="github" revision="cm-14.1" />
+  <project name="FireLord1/android_vendor_samsung_hllte"               	path="vendor/samsung/hllte" 			remote="github" revision="cm-14.1" />
+	<project name="FireLord1/android_vendor_samsung_hl3g"               	path="vendor/samsung/hl3g" 			remote="github" revision="cm-14.1" />
+	<project name="FireLord1/android_device_samsung_smdk5260-common"      	path="device/samsung/smdk5260-common"		remote="github" revision="android-7.1.1_r22" />
+	<project name="FireLord1/android_hardware_samsung_slsi-cm_exynos5260" 	path="hardware/samsung_slsi-cm/exynos5260" 	remote="github" revision="cm-14.1" />
 
-  <!-- Samsung Galaxy S4 (unified) -->
-  <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="aosp-7.1.1" />
-  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-7.1.1" />
-  <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-7.1.1" />
-
-  <!-- Xiaomi Mi5 -->
-  <project path="device/xiaomi/gemini" name="AOSP-JF-MM/platform_device_xiaomi_gemini" remote="github" revision="aosp-7.1.1" />
-  <project path="kernel/xiaomi/msm8996" name="AOSP-JF-MM/platform_kernel_xiaomi_msm8996" remote="github" revision="aosp-7.1.1" />
-
-  <!-- Vendor blobs -->
-  <project path="vendor/lge" name="AOSP-JF-MM/proprietary_vendor_lge" remote="github" revision="aosp-7.1.1"/>
-  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-7.1.1" />
-  <project path="vendor/xiaomi" name="AOSP-JF-MM/proprietary_vendor_xiaomi" remote="github" revision="aosp-7.1.1"/>
+	<project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5"    	path="hardware/samsung_slsi-cm/exynos5" 	remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_hardware_samsung_slsi-cm_exynos"    	path="hardware/samsung_slsi-cm/exynos" 		remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_packages_apps_SamsungServiceMode" 	path="packages/apps/SamsungServiceMode" 	remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_hardware_samsung" 			path="hardware/samsung" 			remote="github" revision="cm-14.1" />
+        <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" 	path="hardware/samsung_slsi/openmax"            remote="github" revision="cm-14.1" />
+	<project name="LineageOS/android_external_stlport" 			path="external/stlport"            		remote="github" revision="cm-14.1" />
 
 </manifest>
